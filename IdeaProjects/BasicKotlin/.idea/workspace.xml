@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ecc256-5913-4a4d-ad8c-2b1037faa67b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/and/objects/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/and/objects/Vet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/and/objects/animals/Canine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/and/objects/animals/Hippo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/and/objects/animals/canines/Wolf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/REFandVALUE.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loops/ForLoops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loops/WhileLoops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/Vet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Canine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Feline.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Hippo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/canines/Fox.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/canines/Wolf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Cheetah.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Lion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Lynx.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/RockPaperScissorsGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/RockPaperScissorsGame.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -61,7 +61,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.classes.and.objects.VetKt">
+  <component name="RunManager" selected="Kotlin.abstractClassesAndInterface.VetKt">
+    <configuration name="abstractClassesAndInterface.VetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="BasicKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="abstractClassesAndInterface.VetKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="classes.and.objects.VetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="BasicKotlin" />
       <option name="VM_PARAMETERS" />
@@ -83,19 +96,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="functions.REFandVALUEKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="functions.RockPaperScissorsGameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="BasicKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="functions.RockPaperScissorsGameKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.abstractClassesAndInterface.VetKt" />
         <item itemvalue="Kotlin.classes.and.objects.VetKt" />
         <item itemvalue="Kotlin.loops.ForLoopsKt" />
         <item itemvalue="Kotlin.loops.WhileLoopsKt" />
         <item itemvalue="Kotlin.functions.REFandVALUEKt" />
-        <item itemvalue="Kotlin.functions.RockPaperScissorsGameKt" />
       </list>
     </recent_temporary>
   </component>
