@@ -8,10 +8,12 @@ fun main(args: Array<String>) {
     val gameChoice = getComputerChoice(options)
     val userChoice = getUserChoice(options)
 //    println(userChoice)
+    displayResult(gameChoice, userChoice)
 }
 
 fun getComputerChoice(options: Array<String>): String {
-    val choiceOfComputer = (Math.random() * options.size).toInt()
+    var ran = Random()
+    val choiceOfComputer = (ran.nextInt(options.size)).toInt()
     println("may tinh da chon ngau nhien mot trong 3 loai")
     return options[choiceOfComputer]
 }
@@ -33,6 +35,13 @@ fun getUserChoice(options: Array<String>): String {
     return yourTurn
 }
 
-fun displayResult(choiceOfComputer: String, choiceOfHuman: String) {
-
+fun displayResult(gameChoice: String, userChoice: String) {
+    print("Computer are $gameChoice. You are $userChoice.")
+    if (gameChoice == userChoice) println(" Tie!")
+    else if (userChoice == "Rock" && gameChoice == "Scissors"
+        || userChoice == "Paper" && gameChoice == "Rock"
+        || userChoice == "Scissors" && gameChoice == "Paper"
+    )
+        println(" You Win!")
+    else println(" You Lose!")
 }
