@@ -1,7 +1,7 @@
-package abstractClassesAndInterface
+package entities
 
-import abstractClassesAndInterface.animals.Hippo
-import abstractClassesAndInterface.animals.canines.Wolf
+import entities.animals.Hippo
+import entities.animals.canines.Wolf
 
 
 class Vet {
@@ -11,10 +11,12 @@ class Vet {
 }
 
 fun main(args: Array<String>) {
-    val arr = arrayOf(Hippo(), Wolf())
+    val arr = arrayOf(Hippo(), Wolf(), Vehicle())
     for (item in arr) {
         item.roam()
-        item.eat()
+        if (item is Animal){
+            item.eat()
+        }
     }
 
     val vet = Vet()

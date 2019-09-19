@@ -1,6 +1,6 @@
-package abstractClassesAndInterface.animals
+package entities.animals
 
-import abstractClassesAndInterface.Animal
+import entities.Animal
 
 abstract class Canine : Animal() {
     override fun roam() {

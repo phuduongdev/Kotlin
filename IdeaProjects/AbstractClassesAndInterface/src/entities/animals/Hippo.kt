@@ -1,6 +1,6 @@
-package abstractClassesAndInterface.animals
+package entities.animals
 
-import abstractClassesAndInterface.Animal
+import entities.Animal
 
 class Hippo : Animal() {
     override val image: String = "hippo.jpg"

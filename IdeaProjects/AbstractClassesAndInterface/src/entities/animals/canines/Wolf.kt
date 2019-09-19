@@ -1,6 +1,6 @@
-package abstractClassesAndInterface.animals.canines
+package entities.animals.canines
 
-import abstractClassesAndInterface.animals.Canine
+import entities.animals.Canine
 
 class Wolf : Canine() {
     override val image: String
