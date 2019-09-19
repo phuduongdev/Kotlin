@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ecc256-5913-4a4d-ad8c-2b1037faa67b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/Vet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Canine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Feline.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/Hippo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/canines/Fox.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/canines/Wolf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Cheetah.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Lion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractClassesAndInterface/animals/felines/Lynx.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicKotlin/META-INF/BasicKotlin.kotlin_module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AbstractClassesAndInterface" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -155,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
